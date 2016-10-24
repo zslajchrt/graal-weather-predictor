@@ -52,7 +52,7 @@ gems installation directory and `/gems/openweather2-<version>/lib`.
 In order to use the OpenWeatherMap service, a personal key must be obtained first from `openweathermap.org`.
 The instructions on how to obtain a key are [here](http://openweathermap.org/appid).
 
-Then, the generated personal key must be substituted for `API-KEY` in the Ruby module.
+Then, the generated personal key must be substituted for `<<API-KEY>>` in the Ruby module.
 
 ####Installing the maps package in FastR
 
