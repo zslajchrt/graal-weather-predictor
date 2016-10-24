@@ -68,7 +68,7 @@ The application is launched from the `graal-weather-predictor` directory as foll
 
 ```
 cd graal-weather-predictor
-RUBYOPT='-I /Library/Ruby/Gems/2.0.0/gems/openweather2-0.1.8/lib' ../graalvm-0.18/bin/node geeconWeather.js
+RUBYOPT='-I /Library/Ruby/Gems/2.0.0/gems/openweather2-0.1.8/lib' ../graalvm-0.18/bin/node weatherServer.js
 ```
 
 Once the server is running, a query can be issued as shown below:
