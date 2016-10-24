@@ -47,6 +47,13 @@ The path to the OpenWeather gem is specified in the `-I` option as a part of the
 variable when running the application. The path is constructed as a concatenation of the
 gems installation directory and `/gems/openweather2-<version>/lib`.
 
+####Generating a personal key for using OpenWeather
+
+In order to use the OpenWeatherMap service, a personal key must be obtained first from `openweathermap.org`.
+The instructions on how to obtain a key are [here](http://openweathermap.org/appid).
+
+Then, the generated personal key must be substituted for `API-KEY` in the Ruby module.
+
 ####Installing the maps package in FastR
 
 The `maps` package is used in the R module to retrieve latitudes of cities. This package
