@@ -47,6 +47,21 @@ The path to the OpenWeather gem is specified in the `-I` option as a part of the
 variable when running the application. The path is constructed as a concatenation of the
 gems installation directory and `/gems/openweather2-<version>/lib`.
 
+####Installing the maps package in FastR
+
+The `maps` package is used in the R module to retrieve latitudes of cities. This package
+can be installed from the FastR shell, which can be launched by the following command:
+
+```
+graalvm/bin/R
+```
+
+In the shell, the following command will install the `maps` package:
+
+```
+install.packages("maps")
+```
+
 ####Running application
 
 The application is launched from the `graal-weather-predictor` directory as follows:
