@@ -47,7 +47,7 @@ The path to the OpenWeather gem is specified in the `-I` option as a part of the
 variable when running the application. The path is constructed as a concatenation of the
 gems installation directory and `/gems/openweather2-<version>/lib`.
 
-####Generating a personal key for using OpenWeather
+####Generating a personal key for using OpenWeatherMap API
 
 In order to use the OpenWeatherMap service, a personal key must be obtained first from `openweathermap.org`.
 The instructions on how to obtain a key are [here](http://openweathermap.org/appid).
