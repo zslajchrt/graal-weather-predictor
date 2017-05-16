@@ -22,12 +22,12 @@ the form `http://localhost:8080/<city>`. The reply to this query is a JSON objec
 the city's name, the real and the predicted temperature, such as
 `{"city":"Kladno","real":6.82,"predicted":14.017807794947569}`.
 
-####Installing GraalVM
+#### Installing GraalVM
 
 In order to run the demonstration, the latest GraalVM must be installed. It can be
 downloaded from the [Oracle Technology Network](http://www.oracle.com/technetwork/oracle-labs/program-languages/downloads/index.html).
 
-####Installing OpenWeather gem
+#### Installing OpenWeather gem
 
 The OpenWeather gem can be installed as follows:
 
@@ -47,14 +47,14 @@ The path to the OpenWeather gem is specified in the `-I` option as a part of the
 variable when running the application. The path is constructed as a concatenation of the
 gems installation directory and `/gems/openweather2-<version>/lib`.
 
-####Generating a personal key for using OpenWeatherMap API
+#### Generating a personal key for using OpenWeatherMap API
 
 In order to use the OpenWeatherMap service, a personal key must be obtained first from `openweathermap.org`.
 The instructions on how to obtain a key are [here](http://openweathermap.org/appid).
 
 Then, the generated personal key must be substituted for `<<API-KEY>>` in the Ruby module.
 
-####Installing the maps package in FastR
+#### Installing the maps package in FastR
 
 The `maps` package is used in the R module to retrieve latitudes of cities. This package
 can be installed from the FastR shell, which can be launched by the following command:
@@ -69,7 +69,7 @@ In the shell, the following command will install the `maps` package:
 install.packages("maps")
 ```
 
-####Running application
+#### Running application
 
 The application is launched from the `graal-weather-predictor` directory as follows:
 
